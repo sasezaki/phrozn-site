@@ -1,0 +1,70 @@
+layout: default.twig
+permalink: /ja/
+---
+<div id="install"><a class="button" href="/en/installation/#pear-channel">INSTALL ({{ phr.version }} {{ phr.stability|upper }})</a></div>
+
+<h1>ようこそ!</h1>
+<p>
+Phrozn はPHPで記述された静的サイトジェネレータです。 
+</p>
+<p>アイデアはとてもシンプルです:</p>
+<p>
+あなたはお好みのフォーマット(Textile, Markdown, Twig, Haml など)で、好んだ環境(Vim, Vim, またはVimなど)で、テキストファイルを記述し、それらをスタイルとともに調理し(繰り返しますと、あなたが選んだフォーマットで - CSS, LESS, またはSASS) 、これらすべてをPhroznへ養わせることで、公開準備が整った静的HTMLサイトが作成されます。
+</p>
+
+<p>手早く始めるために <a href="/en/documentation/articles/getting-started/">Getting Started</a> がすでに書かれています。</p>
+
+<h2 id="features">特徴:</h2>
+<ul>
+    <li><b>完結:</b> Twig, Textile, Markdown, そしてLESS フォーマットの入力ファイルをサポート。</li>
+    <li><b>拡張性:</b> <a href="/en/documentation/processors/">Supported text processors</a> では不十分ですか?  
+        <a href="/en/documentation/articles/create-custom-processor/">あなた用のプロセッサーの作成</a> - はとてもシンプルです!</li>
+        <li><b>使いやすい:</b> 時間がない場合は <a href="/en/documentation/cli-phr/">いくつかのコマンド</a> を覚えるだけでPhroznを効率的に扱えます。</li>
+    <li><b>Modern:</b> No love for pre PHP 5.3 hosts, Phrozn <b>requires PHP 5.3+</b> and relies on it heavily.</li>
+    <li><b>頑強:</b> Phrozn is strictly tested. Check <a href="http://test.phrozn.info/">code coverage</a> and see for yourself!</li>
+    <li><b>確かな基盤:</b> 可能な限りの車輪の再発明の回避。 Phrozn uses code from
+    well-written and well-known projects including <a href="http://pear.php.net/">PEAR</a>, <a href="http://zendframework.com/">Zend Framework 2</a>, <a
+        href="http://symfony.com/">Symfony 2</a>, <a href="http://www.twig-project.org/">Twig</a>, <a
+        href="http://www.pirum-project.org/">Pirum</a>.</li>
+</ul>
+
+<h2 id="why">なぜ Phrozn か？</h2>
+<p>
+静的サイトジェネレータについて慣れてない方には、あなたが使いたくなる理由がここにあります:
+</p>
+<ul>
+    <li><b>高速:</b> 静的HTMLページは非常に高速にロードされます。</li>
+    <li><b>安全:</b> Static pages are inherently safe. No code executed server-side.</li>
+    <li><b>デプロイはつまらない:</b> サーバーサイド環境に悩む必要はありません - すべてのサーバーにデプロイにできます。</li>
+    <li><b>バージョン管理:</b> Since input pages are simple text files, you can version them, and re-generate whole
+    site from any point in the past.</li>
+    <li><b>フォーマットにとらわれない:</b> Enter text in your favorite format, in your favorite text editor.</li>
+</ul>
+<p>オーケー、では再び <b>なぜPhrozn</b>?</p>
+<ul>
+    <li>Written in PHP, extensible in PHP.</li>
+    <li>Exemplar of PHP 5.3 code.</li>
+    <li>Designed with extensibility in mind.</li>
+    
+</ul>
+
+<h2 id="alternatives">代替手段</h2>
+<p>
+Phrozn is not the only generator in the block, but definitely the best one written in PHP :) <br />
+</p>
+<p>
+Seriously, Phrozn was created because I couldn't find any decent static site generator in PHP. There
+are plenty of them written in Python and Ruby though, and I reviewed their source code when implementing Phrozn. 
+</p>
+
+<p>So, on the shoulders of giants we stand:</p>
+<ul>
+    <li class="icon-ruby"><a href="http://jekyllrb.com/">Jekyll</a> - Well known generator used by such services as
+    GitHub.</li>
+    <li class="icon-python"><a href="http://ringce.com/hyde">Hyde</a> - Python port of Jekyll generator.</li>
+    <li class="icon-ruby"><a href="http://tinytree.info/">Bonsai</a> - Very simplistic but still extremely useful little script.</li>
+    <li class="icon-ruby"><a href="http://webgen.rubyforge.org/">Webgen</a> - Quite sophisticated generator.</li>
+    <li class="icon-python"><a href="http://pypi.python.org/pypi/cyrax">Cyrax</a> - Generator based on Jinja2 templates.</li>
+</ul>
+
+
